@@ -1,14 +1,14 @@
 <script>
+import dungeon from './assets/maps/ICC - ICC-Clan-Hall-Dungeon.png'
+import basement from './assets/maps/ICC - ICC-Clan-Hall-Basement.png'
+import crafting from './assets/maps/ICC - ICC-Clan-Hall-Crafting-Area.png'
+import ground from './assets/maps/ICC - ICC-Clan-Hall-Ground.png'
+import first from './assets/maps/ICC - ICC-Clan-Hall-First.png'
+
 export default {
   data() {
     return {
-      images: [
-        'src/assets/maps/ICC - ICC-Clan-Hall-Dungeon.png',
-        'src/assets/maps/ICC - ICC-Clan-Hall-Basement.png',
-        'src/assets/maps/ICC - ICC-Clan-Hall-Crafting-Area.png',
-        'src/assets/maps/ICC - ICC-Clan-Hall-Ground.png',
-        'src/assets/maps/ICC - ICC-Clan-Hall-First.png'
-      ],
+      images: [dungeon, basement, crafting, ground, first],
       slide: 0,
       ticks: ['a', 'b', 'c', 'd', 'e'],
       topImage: '',
